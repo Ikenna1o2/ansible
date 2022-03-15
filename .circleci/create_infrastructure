@@ -1,5 +1,5 @@
- create_infrastructure: 
-   docker:
+  create_infrastructure: 
+    docker:
       - image: amazon/aws-cli
     steps:
       - checkout
