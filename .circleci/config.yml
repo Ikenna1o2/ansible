@@ -41,3 +41,7 @@ jobs:
       - run: echo HELLO
       - run: echo WORLD
       - run: echo $_env_name
+workflows:
+  my_workflow:
+      jobs:
+        - create_infrastructure
