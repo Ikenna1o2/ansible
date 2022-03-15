@@ -1,6 +1,6 @@
   create_infrastructure: 
       docker:
-        - image: amazon/aws-cli
+        - image: circleci/aws-cli@2.0.3
       steps:
         - checkout
         - run:
